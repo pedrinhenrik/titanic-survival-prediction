@@ -19,3 +19,19 @@ This repository demonstrates how to use structured data to train a classificatio
 - [Modeling](#modeling)
 - [Evaluation](#evaluation)
 - [Insights and Conclusions](#insights-and-conclusions)
+
+## Exploratory Data Analysis
+
+Before building the model, an exploratory data analysis (EDA) was performed to understand the structure and distribution of the dataset. This step helps identify missing values, outliers, correlations, and patterns that may influence survival.
+
+### Age Distribution by Survival
+
+![Age Distribution](images/age_distribution.png)
+
+The distribution shows that younger passengers had a higher chance of survival. This aligns with the prioritization of children during evacuation.
+
+### Survival Rate by Gender
+
+![Survival by Sex](images/survival_by_sex.png)
+
+Female passengers had a significantly higher survival rate compared to males, which supports historical accounts that women and children were prioritized during lifeboat boarding.
