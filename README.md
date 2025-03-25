@@ -26,12 +26,12 @@ Before building the model, an exploratory data analysis (EDA) was performed to u
 
 ### Age Distribution by Survival
 
-![Age Distribution](images/age_distribution.png)
+![Age Distribution](images/Age Distribution by Survival.png)
 
 The distribution shows that younger passengers had a higher chance of survival. This aligns with the prioritization of children during evacuation.
 
 ### Survival Rate by Gender
 
-![Survival by Sex](images/survival_by_sex.png)
+![Survival by Sex](images/Survival Rate by Gender.png)
 
 Female passengers had a significantly higher survival rate compared to males, which supports historical accounts that women and children were prioritized during lifeboat boarding.
