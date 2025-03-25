@@ -31,17 +31,13 @@ To predict passenger survival, a supervised classification approach was implemen
 
 The dataset was split into **80% training** and **20% testing**, maintaining class balance with `stratify=y`. Cross-validation was performed using **StratifiedKFold (5 folds)** to ensure stability in the evaluation.
 
-### Model Used
+## Model Used
 - **Algorithm:** Random Forest Classifier
 - **Cross-validation:** 5-fold StratifiedKFold
 - **Hyperparameters Tuned:**  
   - `n_estimators` = 50, 100  
   - `max_depth` = None, 10, 20  
   - `min_samples_split` = 2, 5
-
-### Best Parameters Found
-```python
-{'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5}
 
 ## Exploratory Data Analysis
 
@@ -58,3 +54,9 @@ The distribution shows that younger passengers had a higher chance of survival. 
 ![Survival by Gender](images/survival_by_sex.png)
 
 Female passengers had a significantly higher survival rate compared to males, which supports historical accounts that women and children were prioritized during lifeboat boarding.
+
+### Class Distribution
+
+![Class Distribution](images/class_distribution.png)
+
+The class distribution shows that approximately 62% of the passengers did not survive, while 38% survived. This moderate class imbalance was taken into account by using stratified cross-validation during model evaluation.
